@@ -100,21 +100,3 @@ résultats concrets à montrer :
 - Dépendances obsolètes avec CVE connues (`requirements.txt`) → détectées
   par **OWASP Dependency-Check**
 
-⚠️ Ce code ne doit jamais être déployé en production. Il sert uniquement à
-démontrer que le pipeline de sécurité fonctionne.
-
-## Pour aller plus loin
-
-- Ajouter **OPA (Open Policy Agent)** pour du policy-as-code sur l'infra
-- Publier les résultats vers un dashboard centralisé
-- Intégrer un mapping automatique vers OWASP Top 10 / MITRE ATT&CK
-- Ajouter une notification Slack/Teams en cas d'échec du quality gate
-
-## Lien avec le poste visé
-
-Ce projet démontre :
-- L'intégration de contrôles de sécurité dans les pratiques **DevSecOps**
-- L'usage de données **CVE/NVD** pour l'évaluation des vulnérabilités
-- La capacité à concevoir une **quality gate automatisée** basée sur la
-  sévérité (au lieu d'un audit manuel)
-- Une logique de **suivi des actions correctives** via les rapports générés
