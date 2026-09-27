@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Résultats de scans (générés par le pipeline, pas à committer)
+*.sarif
+semgrep-results.json
+trivy-results.json
+scan-results/
+reports/
+quality_gate_summary.md
+
+# Docker
+*.log
+
+# OS / éditeurs
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# Secrets locaux (au cas où tu testes en local avec une clé API)
+.env
